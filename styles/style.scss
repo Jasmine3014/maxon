@@ -395,13 +395,19 @@ $font-weight : bold;
 .message .form-control{
   border: 2px solid #ced4da;
 }
+.message  .btn-1{
+  background: $orange-color;
+  color: $white-color;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 14px;
+  margin-left: 40%;
+}
 ::placeholder {
   color: #999999 !important;
   font-size: 14px !important;
 }
-.message .btn-1 {
-  @extend .btn-1;
-}
+
 footer h5{
   font-size: 22px;
   color: $white-color;
@@ -487,6 +493,11 @@ footer ul li a span{
   }
   .creative{
     padding: 15px;
+  }
+  .image-section img{
+    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 27%;
   }
 
   .tabel-section h1{
